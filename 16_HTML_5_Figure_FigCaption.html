@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 Figure & Figcaption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            text-align: center;
+        }
+
+        figure {
+            width: 300px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: lightsalmon;
+            display: inline-block;
+            max-resolution: 5px;
+        }
+
+        figure:hover {
+            box-shadow: 0 0 10px white;
+        }
+
+        figure img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        figure figcaption {
+            background: linear-gradient(45deg, darkslategray, orangered);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<!--image1-->
+<figure>
+    <img src="img/image1.jpg" alt="">
+    <figcaption>Image1</figcaption>
+</figure>
+<figure>
+    <img src="img/image2.jpg" alt="">
+    <figcaption>Image2</figcaption>
+</figure>
+<figure>
+    <img src="img/image3.jpg" alt="">
+    <figcaption>Image3</figcaption>
+</figure>
+</body>
+</html>
